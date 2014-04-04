@@ -12,15 +12,12 @@ Projects included in this repository
 ------------------------------------
 
 
-
 * org.cfeclipse.cfeclipsecall
 * org.cfeclipse.cfeclipsecall-plugin
 * org.cfeclipse.cfml : Main CFEclipse Plugin
 * org.cfeclipse.cfml.cfunit
-* org.cfeclipse.cfml.docsharesupport34
-* org.cfeclipse.cfml.docsharesupport34.feature
-* org.cfeclipse.cfml.docsharesupport35
-* org.cfeclipse.cfml.docsharesupport35.feature
+* org.cfeclipse.cfml.docsharesupport
+* org.cfeclipse.cfml.docsharesupport.feature
 * org.cfeclipse.cfml.feature
 * org.cfeclipse.cfml.frameworks
 * org.cfeclipse.cfml.frameworks.fusebox
@@ -37,3 +34,17 @@ Projects included in this repository
 
 Building CFEclipse
 ------------------
+
+Checkout the cfeclipse-releng project from 
+
+https://github.com/cfeclipse/cfeclipse-releng.git
+
+run: `cfeclipse-releng build`
+
+to build the master branch
+
+or: cfeclipse-releng build build.type=dev
+
+to build the develop branch.
+
+See the wiki to find out how the guts of it work
